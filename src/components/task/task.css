@@ -1,0 +1,20 @@
+.create-task-container form div {
+    margin-bottom: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.create-task-container form label {
+    flex: 0 0 120px; 
+    margin-right: 10px;
+}
+
+.create-task-container form input[type="text"] {
+    flex: 0 0 250px; 
+    margin-bottom: 10px;
+}
+
+.create-task-container form button {
+    margin-top: 10px;
+    margin-left: 130px;
+}

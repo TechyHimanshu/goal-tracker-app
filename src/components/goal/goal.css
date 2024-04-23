@@ -1,0 +1,21 @@
+.create-goal-container form div {
+    margin-bottom: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.create-goal-container form label {
+    flex: 0 0 120px; 
+    margin-right: 10px;
+}
+
+.create-goal-container form input[type="text"],
+.create-goal-container form input[type="date"] {
+    flex: 0 0 250px; 
+    margin-bottom: 10px;
+}
+
+.create-goal-container form button {
+    margin-top: 10px;
+    margin-left: 130px;
+}

@@ -1,0 +1,19 @@
+.initial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic_form input {
+    margin-bottom: 10px; /* Add margin between inputs */
+}
+
+.basic_form button {
+    margin-top: 10px; /* Add margin above the button */
+}
