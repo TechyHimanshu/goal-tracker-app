@@ -78,7 +78,7 @@ const GoalForm = () => {
                 <tbody>
                     {goals.map((goal) => (
                         <tr key={goal.id} onClick={() => handleGoalClick(goal._id)}>
-                            <td>{goal.title}</td>
+                            <td style={{ cursor: 'pointer' }}><a href="">{goal.title}</a></td>
                             <td>{goal.deadline}</td>
                         </tr>
                     ))}
